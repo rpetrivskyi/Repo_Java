@@ -4,6 +4,31 @@ public class String_Lesson {
 
 
     public static void main(String[] args) {
+// ignore the "" to show it in my message
+        String messge = "This is \"my\" message";
+        System.out.println(messge);
+
+        // here we use loop to break the sentance on many variables where the space is
+        // when we wont to pull out some info from a text
+        // we put all the data in string and then break
+        String [] words = messge.split(" ");
+        for (String word : words){
+            System.out.println(word);
+        }
+
+
+
+
+        String myStatement = "I am a good Programmer";
+        System.out.println(myStatement.length());
+        System.out.println(myStatement.toLowerCase());
+        System.out.println(myStatement.contains("I"));
+        System.out.println(myStatement.charAt(0));
+        System.out.println(myStatement.equals("technosoft"));
+        System.out.println(myStatement.isEmpty());
+        System.out.println(myStatement.startsWith("hi"));
+        System.out.println(myStatement.endsWith("by"));
+
 
 
         String myStatement = "I am a good Programmer";

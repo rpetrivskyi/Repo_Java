@@ -11,13 +11,13 @@ public class ConditStatement {
 
  //       int hour = 1900;
 
- //       if (hour >= 0600 && hour < 1200) {
- //           System.out.println("Good morning");
- //       }else if (hour >=1200 && hour < 1800){
- //           System.out.println("Good evening");
- //       }else {
-  //          System.out.println("Good night");
-  //      }
+        if (hour >= 0600 && hour < 1200) {
+            System.out.println("Good morning");
+        }else if (hour >=1200 && hour < 1800){
+            System.out.println("Good evening");
+        }else {
+            System.out.println("Good night");
+        }
 
 
  //       boolean isAccountIsLocked = false;

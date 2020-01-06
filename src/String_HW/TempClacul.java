@@ -1,5 +1,7 @@
 package String_HW;
 
+import java.util.Scanner;
+
 public class TempClacul {
     public static void main(String[] args) {
 

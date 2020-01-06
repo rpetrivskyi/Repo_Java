@@ -16,10 +16,10 @@ public class Stmt__Hw {
         boolean isGuestOneVegan = true;
         boolean isGuesttwoVegan = true;
 
-        if (isGuestOneVegan == true && isGuesttwoVegan == true) {
+        if (isGuestOneVegan && isGuesttwoVegan) {
             System.out.println("Here is our Vegan Menu");
 
-        }else if(isGuestOneVegan == true || isGuesttwoVegan == true){
+        }else if(isGuestOneVegan || isGuesttwoVegan){
                 System.out.println("We have some vegan options for You");
             }
         else{
