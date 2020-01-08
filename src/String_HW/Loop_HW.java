@@ -14,7 +14,7 @@ public class Loop_HW {
         System.out.println("Enter number:");
 
         int num=scan.nextInt();
-      
+
 
         int score = 15;
         int maxScore = 20;

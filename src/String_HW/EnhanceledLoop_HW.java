@@ -1,15 +1,15 @@
-package Lessons;
+package String_HW;
 
-import sun.jvm.hotspot.utilities.IntArray;
+import apple.laf.JRSUIConstants;
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
 
-public class Training_ {
-
+public class EnhanceledLoop_HW {
     public static void main(String[] args) {
+
+
         Scanner scan1 = new Scanner(System.in);
-        System.out.println("Please ener your username");
+        System.out.println("Please enter your username");
         String actualUsername = scan1.nextLine();
         String expectedUsername = "Ruslan";
 
@@ -28,11 +28,9 @@ public class Training_ {
                 actualUsername = scan1.nextLine();
                 System.out.println("Please enter valid password");
                 actualPassword = scan.nextLine();
-                if (i == 5)
-                    System.out.println("Your account will be locked for 10 min");{
-
+                if (i == 5) {
+                    System.out.println("Your account will be locked for 10 min");
                 }
-
 
             } else if (!actualPassword.equals(expectedPassword) || !actualUsername.equals(expectedUsername)) {
                 int count = 5 - i;
@@ -52,6 +50,5 @@ public class Training_ {
             }
         }
     }
-
-
-    }
+}
+// i dont know why but it doesnt print "locked account" after 5 tries. probably i put else statement at wrong position. just couldnt figure it out
